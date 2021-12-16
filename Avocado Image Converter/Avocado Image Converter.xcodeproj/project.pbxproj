@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		956166FB276AC59800402146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956166FA276AC59800402146 /* Assets.xcassets */; };
+		956166FE276AC59800402146 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956166FD276AC59800402146 /* Preview Assets.xcassets */; };
+		95616708276AC59800402146 /* Avocado_Image_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95616707276AC59800402146 /* Avocado_Image_ConverterTests.swift */; };
+		95616712276AC59800402146 /* Avocado_Image_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95616711276AC59800402146 /* Avocado_Image_ConverterUITests.swift */; };
+		95616714276AC59800402146 /* Avocado_Image_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95616713276AC59800402146 /* Avocado_Image_ConverterUITestsLaunchTests.swift */; };
+		9561673B276AC87600402146 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561673A276AC87600402146 /* Coordinator.swift */; };
+		9561673D276AC8BA00402146 /* Avocado_Image_ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561673C276AC8BA00402146 /* Avocado_Image_ConverterApp.swift */; };
+		9561673F276AC8E300402146 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561673E276AC8E300402146 /* PhotoPickerView.swift */; };
+		95616741276AC92A00402146 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95616740276AC92A00402146 /* Theme.swift */; };
+		95616743276AC94400402146 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95616742276AC94400402146 /* InfoView.swift */; };
+		95616745276AC96B00402146 /* ImageSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95616744276AC96B00402146 /* ImageSelection.swift */; };
+		95616747276AC98700402146 /* ImageConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95616746276AC98700402146 /* ImageConversion.swift */; };
+		95616749276AC9A400402146 /* Avocado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95616748276AC9A400402146 /* Avocado.swift */; };
+		9561674B276AC9DB00402146 /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561674A276AC9DB00402146 /* ConversionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95616704276AC59800402146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 956166EB276AC59700402146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 956166F2276AC59700402146;
+			remoteInfo = "Avocado Image Converter";
+		};
+		9561670E276AC59800402146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 956166EB276AC59700402146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 956166F2276AC59700402146;
+			remoteInfo = "Avocado Image Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		956166F3276AC59700402146 /* Avocado Image Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avocado Image Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		956166FA276AC59800402146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		956166FD276AC59800402146 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95616703276AC59800402146 /* Avocado Image ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avocado Image ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95616707276AC59800402146 /* Avocado_Image_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avocado_Image_ConverterTests.swift; sourceTree = "<group>"; };
+		9561670D276AC59800402146 /* Avocado Image ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avocado Image ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95616711276AC59800402146 /* Avocado_Image_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avocado_Image_ConverterUITests.swift; sourceTree = "<group>"; };
+		95616713276AC59800402146 /* Avocado_Image_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avocado_Image_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9561673A276AC87600402146 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9561673C276AC8BA00402146 /* Avocado_Image_ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avocado_Image_ConverterApp.swift; sourceTree = "<group>"; };
+		9561673E276AC8E300402146 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		95616740276AC92A00402146 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		95616742276AC94400402146 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		95616744276AC96B00402146 /* ImageSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelection.swift; sourceTree = "<group>"; };
+		95616746276AC98700402146 /* ImageConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConversion.swift; sourceTree = "<group>"; };
+		95616748276AC9A400402146 /* Avocado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avocado.swift; sourceTree = "<group>"; };
+		9561674A276AC9DB00402146 /* ConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
+		9561674C276ACE0900402146 /* Avocado-Image-Converter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Avocado-Image-Converter-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		956166F0276AC59700402146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95616700276AC59800402146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9561670A276AC59800402146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956166EA276AC59700402146 = {
+			isa = PBXGroup;
+			children = (
+				956166F5276AC59700402146 /* Avocado Image Converter */,
+				95616706276AC59800402146 /* Avocado Image ConverterTests */,
+				95616710276AC59800402146 /* Avocado Image ConverterUITests */,
+				956166F4276AC59700402146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		956166F4276AC59700402146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				956166F3276AC59700402146 /* Avocado Image Converter.app */,
+				95616703276AC59800402146 /* Avocado Image ConverterTests.xctest */,
+				9561670D276AC59800402146 /* Avocado Image ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		956166F5276AC59700402146 /* Avocado Image Converter */ = {
+			isa = PBXGroup;
+			children = (
+				9561674C276ACE0900402146 /* Avocado-Image-Converter-Info.plist */,
+				95616733276AC66800402146 /* Logic */,
+				95616728276AC5F500402146 /* Views */,
+				956166FA276AC59800402146 /* Assets.xcassets */,
+				956166FC276AC59800402146 /* Preview Content */,
+			);
+			path = "Avocado Image Converter";
+			sourceTree = "<group>";
+		};
+		956166FC276AC59800402146 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				956166FD276AC59800402146 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95616706276AC59800402146 /* Avocado Image ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				95616707276AC59800402146 /* Avocado_Image_ConverterTests.swift */,
+			);
+			path = "Avocado Image ConverterTests";
+			sourceTree = "<group>";
+		};
+		95616710276AC59800402146 /* Avocado Image ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95616711276AC59800402146 /* Avocado_Image_ConverterUITests.swift */,
+				95616713276AC59800402146 /* Avocado_Image_ConverterUITestsLaunchTests.swift */,
+			);
+			path = "Avocado Image ConverterUITests";
+			sourceTree = "<group>";
+		};
+		95616728276AC5F500402146 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95616742276AC94400402146 /* InfoView.swift */,
+				95616744276AC96B00402146 /* ImageSelection.swift */,
+				95616746276AC98700402146 /* ImageConversion.swift */,
+				95616748276AC9A400402146 /* Avocado.swift */,
+				9561674A276AC9DB00402146 /* ConversionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95616733276AC66800402146 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				9561673A276AC87600402146 /* Coordinator.swift */,
+				9561673C276AC8BA00402146 /* Avocado_Image_ConverterApp.swift */,
+				9561673E276AC8E300402146 /* PhotoPickerView.swift */,
+				95616740276AC92A00402146 /* Theme.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		956166F2276AC59700402146 /* Avocado Image Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95616717276AC59800402146 /* Build configuration list for PBXNativeTarget "Avocado Image Converter" */;
+			buildPhases = (
+				956166EF276AC59700402146 /* Sources */,
+				956166F0276AC59700402146 /* Frameworks */,
+				956166F1276AC59700402146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avocado Image Converter";
+			productName = "Avocado Image Converter";
+			productReference = 956166F3276AC59700402146 /* Avocado Image Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95616702276AC59800402146 /* Avocado Image ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9561671A276AC59800402146 /* Build configuration list for PBXNativeTarget "Avocado Image ConverterTests" */;
+			buildPhases = (
+				956166FF276AC59800402146 /* Sources */,
+				95616700276AC59800402146 /* Frameworks */,
+				95616701276AC59800402146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95616705276AC59800402146 /* PBXTargetDependency */,
+			);
+			name = "Avocado Image ConverterTests";
+			productName = "Avocado Image ConverterTests";
+			productReference = 95616703276AC59800402146 /* Avocado Image ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9561670C276AC59800402146 /* Avocado Image ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9561671D276AC59800402146 /* Build configuration list for PBXNativeTarget "Avocado Image ConverterUITests" */;
+			buildPhases = (
+				95616709276AC59800402146 /* Sources */,
+				9561670A276AC59800402146 /* Frameworks */,
+				9561670B276AC59800402146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9561670F276AC59800402146 /* PBXTargetDependency */,
+			);
+			name = "Avocado Image ConverterUITests";
+			productName = "Avocado Image ConverterUITests";
+			productReference = 9561670D276AC59800402146 /* Avocado Image ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		956166EB276AC59700402146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					956166F2276AC59700402146 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+					95616702276AC59800402146 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 956166F2276AC59700402146;
+					};
+					9561670C276AC59800402146 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 956166F2276AC59700402146;
+					};
+				};
+			};
+			buildConfigurationList = 956166EE276AC59700402146 /* Build configuration list for PBXProject "Avocado Image Converter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 956166EA276AC59700402146;
+			productRefGroup = 956166F4276AC59700402146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				956166F2276AC59700402146 /* Avocado Image Converter */,
+				95616702276AC59800402146 /* Avocado Image ConverterTests */,
+				9561670C276AC59800402146 /* Avocado Image ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		956166F1276AC59700402146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956166FE276AC59800402146 /* Preview Assets.xcassets in Resources */,
+				956166FB276AC59800402146 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95616701276AC59800402146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9561670B276AC59800402146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		956166EF276AC59700402146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95616745276AC96B00402146 /* ImageSelection.swift in Sources */,
+				9561673D276AC8BA00402146 /* Avocado_Image_ConverterApp.swift in Sources */,
+				95616741276AC92A00402146 /* Theme.swift in Sources */,
+				95616747276AC98700402146 /* ImageConversion.swift in Sources */,
+				9561673F276AC8E300402146 /* PhotoPickerView.swift in Sources */,
+				95616749276AC9A400402146 /* Avocado.swift in Sources */,
+				9561674B276AC9DB00402146 /* ConversionView.swift in Sources */,
+				95616743276AC94400402146 /* InfoView.swift in Sources */,
+				9561673B276AC87600402146 /* Coordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956166FF276AC59800402146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95616708276AC59800402146 /* Avocado_Image_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95616709276AC59800402146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95616712276AC59800402146 /* Avocado_Image_ConverterUITests.swift in Sources */,
+				95616714276AC59800402146 /* Avocado_Image_ConverterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95616705276AC59800402146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 956166F2276AC59700402146 /* Avocado Image Converter */;
+			targetProxy = 95616704276AC59800402146 /* PBXContainerItemProxy */;
+		};
+		9561670F276AC59800402146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 956166F2276AC59700402146 /* Avocado Image Converter */;
+			targetProxy = 9561670E276AC59800402146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95616715276AC59800402146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95616716276AC59800402146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95616718276AC59800402146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avocado Image Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = WGV3S73V42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avocado-Image-Converter-Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Avocado Image Converter needs the access to Media Library to select your image";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Avocado Image Converter needs the access to Photo Library to select your image";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarcoScaglione.Avocado-Image-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95616719276AC59800402146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avocado Image Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = WGV3S73V42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avocado-Image-Converter-Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Avocado Image Converter needs the access to Media Library to select your image";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Avocado Image Converter needs the access to Photo Library to select your image";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarcoScaglione.Avocado-Image-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9561671B276AC59800402146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WGV3S73V42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarcoScaglione.Avocado-Image-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avocado Image Converter.app/Avocado Image Converter";
+			};
+			name = Debug;
+		};
+		9561671C276AC59800402146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WGV3S73V42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarcoScaglione.Avocado-Image-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avocado Image Converter.app/Avocado Image Converter";
+			};
+			name = Release;
+		};
+		9561671E276AC59800402146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WGV3S73V42;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarcoScaglione.Avocado-Image-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Avocado Image Converter";
+			};
+			name = Debug;
+		};
+		9561671F276AC59800402146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WGV3S73V42;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarcoScaglione.Avocado-Image-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Avocado Image Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		956166EE276AC59700402146 /* Build configuration list for PBXProject "Avocado Image Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95616715276AC59800402146 /* Debug */,
+				95616716276AC59800402146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95616717276AC59800402146 /* Build configuration list for PBXNativeTarget "Avocado Image Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95616718276AC59800402146 /* Debug */,
+				95616719276AC59800402146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9561671A276AC59800402146 /* Build configuration list for PBXNativeTarget "Avocado Image ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9561671B276AC59800402146 /* Debug */,
+				9561671C276AC59800402146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9561671D276AC59800402146 /* Build configuration list for PBXNativeTarget "Avocado Image ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9561671E276AC59800402146 /* Debug */,
+				9561671F276AC59800402146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 956166EB276AC59700402146 /* Project object */;
+}
